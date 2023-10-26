@@ -1,11 +1,25 @@
-body{
-    font-family:Verdana, Geneva,Arial;
-    font-size: 12px;
+* {
+   /* background-color: red; */
+   font-family:Verdana, Geneva,Arial;
+   font-size: 12px;
+   margin:0px;
+   padding:0px;
 }
-h1{
-   font-size: 2.2rem;
+
+h1 {
+   font-size: 1rem;
 }
-h2{
+
+h2 {
    font-size: 1.3rem;
    font-weight: normal;
+}
+
+blockquote {
+   font-style:italic ;
+}
+
+h1,h2 {
+   color:#C60;
+   border-bottom:thin dotted #888;
 }
