@@ -1,0 +1,64 @@
+* {
+  font-size: small;
+  font-family: Verdana,Helvetica,Arial;
+  line-height: 1.6em;
+  margin:0px;
+  padding:0px;
+}
+
+h1,h2 {
+  color: #007e7e;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+.guarantee {
+  border-color:white;
+  border-width:1px;
+  border-style:dashed;
+  background-color:#a7cece;
+  padding:25px;
+  margin:30px;
+  line-height:1.9em;
+  font-style:italic;
+  color:#444;
+  font-family:Georgia, 'Times New Roman';
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-right: 250px;
+  padding: 25px;
+  padding-left: 80px;
+  /*border-top-color: #7d76db;
+  border-top-style: dotted;
+  border-top-width: medium;
+  border-left: #7d76db;
+  border-left-style: groove;
+  border-right: #7d76db;
+  border-right-style: groove;
+  border-bottom-color: #7d76db;
+  border-bottom-style: dotted;
+  border-bottom-width: medium;*/
+  border: #FFFFFF;
+  border-style: dashed;
+  border-top-right-radius:2em;
+  border-bottom-left-radius: 2em;
+}
+.elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;
+}
