@@ -18,18 +18,21 @@ h2 {
   font-size: 1.3em;
 }
 .guarantee {
-  border-color:white;
+  /*border-color:white;
   border-width:1px;
-  border-style:dashed;
-  background-color:#a7cece;
+  border-style:dashed;*/
+  border:white dashed 1px;
   padding:25px;
   margin:30px;
   line-height:1.9em;
-  font-style:italic;
+  /*font-style:italic;*/
+  /*font-family:Georgia, 'Times New Roman';*/
+  font:italic  Georgia, 'Times New Roman';
   color:#444;
-  font-family:Georgia, 'Times New Roman';
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
+  /*background-color:#a7cece;*/
+  /*background-image: url(images/background.gif);
+  background-repeat: no-repeat;*/
+  background: #a7cece url(images/background.gif) no-repeat;
   background-position: top left;
   margin-right: 250px;
   padding: 25px;
@@ -44,21 +47,31 @@ h2 {
   border-bottom-color: #7d76db;
   border-bottom-style: dotted;
   border-bottom-width: medium;*/
-  border: #FFFFFF;
-  border-style: dashed;
+  /*border: #FFFFFF;
+  border-style: dashed;*/
+  border:#ffffff dashed;
   border-top-right-radius:2em;
   border-bottom-left-radius: 2em;
 }
 .elixirs {
-  border-width: thin;
+  /*border-width: thin;
   border-style: solid;
-  border-color: #007e7e;
+  border-color: #007e7e;*/
+  border: thin solid #007e7e;
   width: 200px;
-  padding-right: 20px;
+  /*padding-right: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 20px;*/
+  padding:0px 20px 20px;
   margin-left: 20px;
-  background-image: url(images/cocktail.gif);
-  background-repeat: repeat-x;
+  /*background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;*/
+  background: white url(images/cocktail.gif) repeat-x;
   text-align: center;
+}
+.elixirs h2 {
+  color: black;
+}
+.elixirs h3 {
+  color: #d12c47;
 }
