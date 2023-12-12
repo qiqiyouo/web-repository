@@ -36,7 +36,7 @@
     padding-top:8px;
     text-align:left;
     position:relative;
-    left:200px;
+    left:250px;
     margin:30px;
     background-color: #ffffff;
 }
@@ -51,7 +51,7 @@
     padding-top:8px;
     padding-bottom:5px;
     position:relative;
-    left:665px;
+    left:715px;
     bottom:75px; 
 }
 
@@ -60,7 +60,7 @@
     line-height:1.4em;
     position:relative;
     bottom:60px;
-    left:260px;
+    left:300px;
     color:#3d3c3c;
     /* font-size:17px; */
 }
@@ -74,11 +74,16 @@ a:visited {
 }
 
 .five {
-    text-align:left;
+    text-align:center;
     position:relative;
-    left:220px;
+    left:-50px;
     bottom:35px;
     font-size:10px;
+}
+
+.six {
+    text-align:center;
+    line-height:1.2em;
 }
 
 .allcontent {
@@ -108,6 +113,10 @@ a:visited {
 
 .form {
     padding-top:50px;
-    padding-bottom:10px;
-    line-height:1.5em;
+    padding-bottom:10px; 
+    line-height:3em; 
+    border-right:1px solid #0f0f0f;
 }
+
+
+
