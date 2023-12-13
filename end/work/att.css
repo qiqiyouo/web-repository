@@ -9,7 +9,7 @@
 
 .two {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:40px;
+    font-size:50px;
     font-weight:bold;
     text-align: center;
     line-height:1em;
@@ -65,12 +65,12 @@
     /* font-size:17px; */
 }
 
-a:link {
+.four a:link {
     color:blue;
 }
 
-a:visited {
-    color:red;
+.four a:visited {
+    color:blue;
 }
 
 .five {
@@ -112,11 +112,81 @@ a:visited {
 }
 
 .form {
-    padding-top:50px;
-    padding-bottom:10px; 
-    line-height:3em; 
-    border-right:1px solid #0f0f0f;
+    font-size:12px;
+    /* padding-top:50px;
+    padding-bottom:10px;  */
+    line-height:4em; 
+    /* border:1px solid #0f0f0f;  */
+    position: relative;
+    left:-90px;
+    bottom:5px;
 }
+
+.form2 a:link,a:visited {
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
+
+.form2 a:hover {
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
+
+.form2 a:active {
+    border:0.5px dashed #9c9b9b;
+}
+
+.form2 {
+    font-size:12px;
+    /* padding-top:50px;
+    padding-bottom:10px;  */
+    line-height:4em; 
+    position: relative;
+    left:260px;
+    bottom:260px;
+}
+
+.tubiao {
+    position: relative;
+    left:980px;
+    bottom:470px;
+}
+
+.allcontent2 {
+    width:1200px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: #f0f0f0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.form3 {
+    font-size:12px;
+    line-height:4em;
+    position:relative;
+    left:950px;
+    bottom:420px;
+}
+
+.form3 a:link,a:visited {
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
+
+.form3 a:hover {
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
+
+.form3 a:active {
+    border:0.5px dashed #9c9b9b;
+}
+
 
 
 
