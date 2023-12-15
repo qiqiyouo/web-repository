@@ -1,29 +1,42 @@
+.content {
+    width:1200px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .one {
     font-family:Arial, sans-serif;
-    font-size:30px;
+    font-size:26px;
     font-weight:100px;
+    color:#1d2329;
     text-align:center;
     line-height:1.15em;
     margin:4px;
 }
 
 .two {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:50px;
+    font-family:sans-serif; 
+    color: #1d2329;
+    font-size:48px;
     font-weight:bold;
+    text-indent:-0.5em;/*文本块中首行文本的缩进（使用负值，首行会被缩进到左边）*/
     text-align: center;
-    line-height:1em;
-    margin:2px;
+    line-height:1.15em;
+    letter-spacing:-.03em;/*字母间的空隙*/
+    margin-top:8px;
 }
 
 .three {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:15px;
+    font-size:18px;
     color: #4f4e4e;
     text-align:center;
     font-weight:50px;
-    line-height:2em;
-    margin:8px;
+    line-height:1.4em;
+    margin-top:16px;
 }
 
 .box {
@@ -56,29 +69,31 @@
 }
 
 .four {
-    /* text-align:center; */
+    font-size:18px;
     line-height:1.4em;
     position:relative;
     bottom:60px;
     left:300px;
     color:#3d3c3c;
-    /* font-size:17px; */
 }
 
 .four a:link {
-    color:blue;
+    color:#0057b8;
 }
 
 .four a:visited {
-    color:blue;
+    color:#0057b8;
 }
 
 .five {
+    font-size:12px;
+    line-height:1.2em;
     text-align:center;
     position:relative;
     left:-50px;
     bottom:35px;
     font-size:10px;
+    
 }
 
 .six {
@@ -86,11 +101,11 @@
     line-height:1.2em;
 }
 
-.allcontent {
+.content2 {
     width:1200px;
 	padding-top:10px;
 	padding-bottom:10px;
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -113,12 +128,9 @@
 
 .form {
     font-size:12px;
-    /* padding-top:50px;
-    padding-bottom:10px;  */
     line-height:4em; 
-    /* border:1px solid #0f0f0f;  */
     position: relative;
-    left:-90px;
+    left:-50px;
     bottom:5px;
 }
 
@@ -146,22 +158,12 @@
     position: relative;
     left:260px;
     bottom:260px;
+    
 }
 
 .tubiao {
-    position: relative;
-    left:980px;
-    bottom:470px;
-}
-
-.allcontent2 {
-    width:1200px;
-	padding-top:10px;
-	padding-bottom:10px;
-	background-color: #f0f0f0;
-	margin-left:auto;
-	margin-right:auto;
-}
+    margin:0px auto;
+} 
 
 .form3 {
     font-size:12px;
@@ -169,6 +171,7 @@
     position:relative;
     left:950px;
     bottom:420px;
+    border-left:1px solid #0f0f0f;
 }
 
 .form3 a:link,a:visited {
@@ -187,6 +190,55 @@
     border:0.5px dashed #9c9b9b;
 }
 
+.form4{
+    position:relative;
+    left:-40px;
+    bottom:400px;
+    font-size:10px;
+    list-style:none;
+    
+}
 
+ul li {
+    display:inline;
+    padding:5px 10px 5px 10px;
+}
 
+.form4 a:link,a:visited {
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
 
+.form4 a:hover {
+    text-decoration:underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0f0f0f;
+}
+
+.form4 a:active {
+    border:0.5px dashed #9c9b9b;
+}
+
+.icon {
+    width:15px;
+}
+
+.icon2 {
+    width:25px;
+    position:relative;
+    bottom:-10px;
+}
+
+.foot {
+    font-size:8px;
+    float:left;
+    position:relative;
+    bottom:380px;
+    margin-bottom:0px;
+}
+
+.xiaobiao {
+    width:2px;
+    height:2px;
+}
